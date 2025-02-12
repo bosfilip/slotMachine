@@ -62,4 +62,7 @@ def main():
         showrow(row)
         p = payout(bet, row)
         balance += p
+
+        if balance == 0:
+            print("You are out of money")
 main()
